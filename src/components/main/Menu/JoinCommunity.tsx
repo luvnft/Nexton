@@ -3,7 +3,7 @@ import { styled } from "styled-components";
 import IcNftMoreArrow from "@/assets/icons/Landing/ic_nftMore_arrow.svg";
 import IcNftMoreArrowDisabled from "@/assets/icons/Landing/ic_nftMore_arrow_disabled.svg";
 import IcMenuTwitter from "@/assets/icons/Menu/ic_menu_twitter.svg";
-import IcMenuTelegram from "@/assets/icons/Menu/ic_menu_telegram.svg";  // Replace Discord with Telegram icon
+import IcMenuTelegram from "@/assets/icons/Menu/telegram.svg";  // Replace Discord with Telegram icon
 
 const JoinCommunity = () => {
   const handleNewTap = (url: string) => {
