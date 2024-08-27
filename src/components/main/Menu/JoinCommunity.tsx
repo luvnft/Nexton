@@ -12,7 +12,7 @@ const JoinCommunity = () => {
 
   return (
     <JoinCommunityWrapper>
-      <JoinCommunityTitle>Join our community</JoinCommunityTitle>
+      <JoinCommunityTitle>Join our tribe</JoinCommunityTitle>
       <JoinCommunityButtonList>
         <JoinCommunityButton onClick={() => handleNewTap("https://twitter.com/arvrtise")}>
           <div>
@@ -21,10 +21,10 @@ const JoinCommunity = () => {
           </div>
           <img src={IcNftMoreArrow} alt="moreArrow" width={10} />
         </JoinCommunityButton>
-        <JoinCommunityButton onClick={() => handleNewTap("https://t.me/arvrtise")}>  {/* Replace with Telegram link */}
+        <JoinCommunityButton onClick={() => handleNewTap("https://discord.gg/GZtDjASyc7")}>  {/* Replace with Telegram link */}
           <div>
-            <img src={IcMenuTelegram} alt="telegram" />  {/* Replace icon with Telegram */}
-            Telegram
+            <img src={IcMenuTelegram} alt="discord" />  {/* Replace icon with Telegram */}
+            Discord
           </div>
           <img src={IcNftMoreArrow} alt="moreArrow" width={10} />
         </JoinCommunityButton>

@@ -10,7 +10,7 @@ ReactDOM.createRoot(document.getElementById("root")!).render(
   <TonConnectUIProvider
     manifestUrl={manifestUrl}
     actionsConfiguration={{
-      twaReturnUrl: "https://t.me/Nexton_tele_bot",
+      twaReturnUrl: "https://t.me/arvrtise",
     }}
   >
     <App />
