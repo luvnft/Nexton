@@ -1,6 +1,6 @@
-# Nexton TWA Frontend
+# TONASS TWA Frontend
 
-This frontend code is for setting up a Nexton Telegram Web App using React.js.
+This frontend code is for setting up a TONASS Telegram Web App using React.js.
 It acts as client Part of the project
 
 ## Key Features

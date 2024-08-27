@@ -30,7 +30,7 @@ const NlpContext = (props: NlpContextProps) => {
       <NlpContextHeader>
         <NlpImg src={IcNlp} alt="nlp" />
         <NlpContextTextBox>
-          <p>Nexton</p>
+          <p>TONASS</p>
           <p>Liquidity Providers</p>
         </NlpContextTextBox>
       </NlpContextHeader>

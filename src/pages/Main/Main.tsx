@@ -158,7 +158,7 @@ const Main = () => {
       {modal && <WelcomeModal toggleModal={toggleModal} />}
 
       <MainWrapper>
-        <Header isOpen={false} text="NEXTON" backgroundType={false} connected={connected} tonConnectUI={tonConnectUI} />
+        <Header isOpen={false} text="TONASS." backgroundType={false} connected={connected} tonConnectUI={tonConnectUI} />
         <MainMyAssetInfo
           tonConnectUI={tonConnectUI}
           connected={connected}

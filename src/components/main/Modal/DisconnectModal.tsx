@@ -25,7 +25,7 @@ const DisconnectModal = (props: DisconnectModalProps) => {
         <ModalTitle>Connection off</ModalTitle>
         <ModalDesc>
           <p>Your wallet will be detached</p>
-          <p>from NEXTON.</p>
+          <p>from TONASS.</p>
         </ModalDesc>
 
         <ModalButtonWrapper>
