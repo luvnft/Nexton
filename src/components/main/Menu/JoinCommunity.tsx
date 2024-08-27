@@ -2,10 +2,8 @@ import { styled } from "styled-components";
 
 import IcNftMoreArrow from "@/assets/icons/Landing/ic_nftMore_arrow.svg";
 import IcNftMoreArrowDisabled from "@/assets/icons/Landing/ic_nftMore_arrow_disabled.svg";
-import IcMenuDiscord from "@/assets/icons/Menu/ic_menu_discord.svg";
-import IcMenuDiscordDisabled from "@/assets/icons/Menu/ic_menu_discord_disabled.svg";
-import IcMenuGithub from "@/assets/icons/Menu/ic_menu_github.svg";
 import IcMenuTwitter from "@/assets/icons/Menu/ic_menu_twitter.svg";
+import IcMenuTelegram from "@/assets/icons/Menu/ic_menu_telegram.svg";  // Replace Discord with Telegram icon
 
 const JoinCommunity = () => {
   const handleNewTap = (url: string) => {
@@ -14,28 +12,21 @@ const JoinCommunity = () => {
 
   return (
     <JoinCommunityWrapper>
-      <JoinCommunityTitle>Join in our community</JoinCommunityTitle>
+      <JoinCommunityTitle>Join our community</JoinCommunityTitle>
       <JoinCommunityButtonList>
-        <JoinCommunityButton onClick={() => handleNewTap("https://twitter.com/NextonNode")}>
+        <JoinCommunityButton onClick={() => handleNewTap("https://twitter.com/arvrtise")}>
           <div>
             <img src={IcMenuTwitter} alt="twitter" />
             Twitter
           </div>
           <img src={IcNftMoreArrow} alt="moreArrow" width={10} />
         </JoinCommunityButton>
-        <JoinCommunityButton onClick={() => handleNewTap("https://github.com/Nex-TON")}>
+        <JoinCommunityButton onClick={() => handleNewTap("https://t.me/arvrtise")}>  {/* Replace with Telegram link */}
           <div>
-            <img src={IcMenuGithub} alt="github" />
-            Github
+            <img src={IcMenuTelegram} alt="telegram" />  {/* Replace icon with Telegram */}
+            Telegram
           </div>
           <img src={IcNftMoreArrow} alt="moreArrow" width={10} />
-        </JoinCommunityButton>
-        <JoinCommunityButton $inactive>
-          <div>
-            <img src={IcMenuDiscordDisabled} alt="discord_disabled" />
-            Discord
-          </div>
-          <img src={IcNftMoreArrowDisabled} alt="moreArrow_disabled" width={10} />
         </JoinCommunityButton>
       </JoinCommunityButtonList>
     </JoinCommunityWrapper>
